@@ -1,237 +1,237 @@
 {
-  "navigation": {
-    "projects": "PROJECTS",
-    "about": "ABOUT US",
-    "news": "NEWS",
-    "contact": "CONTACT",
-    "services": "SERVICES",
-    "home": "HOME"
-  },
-  "hero": {
-    "title": "You don't deserve the best",
-    "subtitle": "Development company connecting consumers and construction in Azerbaijan",
-    "description": "We provide the best solutions to achieve our clients' success.",
-    "button": "LEARN MORE"
-  },
-  "about": {
-    "title": "WHO WE ARE?",
-    "description": "Alians Development is a leading company operating in the real estate sector in Azerbaijan. Our mission is to provide our customers with high-quality, modern and reliable living spaces. Our team consists of experienced architects, engineers and project managers who carefully plan and execute every project. We prioritize customer satisfaction and apply the highest standards in every project.",
-    "experience": "YEARS OF EXPERIENCE",
-    "projects": "COMPLETED PROJECTS",
-    "employees": "QUALIFIED EMPLOYEES",
-    "satisfaction": "CUSTOMER SATISFACTION"
-  },
-  "services": {
-    "title": "OUR SERVICES",
-    "web_development": "Web Development",
-    "mobile_development": "Mobile Development",
-    "ui_ux_design": "UI/UX Design",
-    "consulting": "Consulting",
-    "marketing": {
-      "title": "Marketing, business idea and concept",
-      "item1": "Implementation of market research",
-      "item2": "Evaluation of the advisability of investing in any project development of commercial or residential real estate"
-    },
-    "landSelection": {
-      "title": "Selection and purchase of land for construction",
-      "item1": "Assessment of land areas",
-      "item2": "Implementation of legal documentation process",
-      "item3": "Identification of the most suitable locations for construction"
-    },
-    "documentation": {
-      "title": "Obtaining of permission documentation",
-      "item1": "Obtaining all necessary permits and approvals"
-    },
-    "management": {
-      "title": "Integrated management",
-      "item1": "Coordination of all stages of the project"
-    },
-    "engineering": {
-      "title": "Engineering infrastructure",
-      "item1": "Design of water, sewerage and electrical systems",
-      "item2": "Installation of heating and ventilation systems",
-      "item3": "Creation of telecommunications infrastructure"
-    },
-    "funding": {
-      "title": "Fund raising",
-      "item1": "Attracting investors to finance the project"
-    },
-    "construction": {
-      "title": "Construction management",
-      "item1": "Full control of the construction process and quality assurance"
-    },
-    "commissioning": {
-      "title": "Commissioning",
-      "item1": "Completion of the project and delivery to customers"
-    }
-  },
-  "projects": {
-    "title": "Our Projects",
-    "view_all": "View All",
-    "view_details": "View Details",
-    "edit": "Edit",
-    "delete": "Delete",
-    "create_new": "New Project",
-    "no_projects": "No projects yet"
-  },
-  "contact": {
-    "title": "Contact",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send",
-    "phone": "Phone",
-    "address": "Address"
-  },
-  "common": {
-    "loading": "Loading...",
-    "save": "Save",
-    "cancel": "Cancel",
-    "submit": "Submit",
-    "back": "Back",
-    "next": "Next",
-    "previous": "Previous",
-    "error": "Error",
-    "success": "Success",
-    "learn_more": "LEARN MORE",
-    "view_all": "VIEW ALL",
-    "read_more": "READ MORE"
-  },
-  "footer": {
-    "rights": "All rights reserved",
-    "company": "Alians Development"
-  },
-  "businessModel": {
-    "title": "OUR BUSINESS MODEL",
-    "description": "As Alians Development, our business model consists of 4 main parts. Our team has built the entire process based on your convenience. Your wishes are taken into account at every stage of our business model",
-    "button": "LEARN MORE",
-    "step1": {
-      "title": "Research",
-      "description": "Here, the location, price, apartment renovation that the population mainly wants to buy are researched and offered."
-    },
-    "step2": {
-      "title": "Project",
-      "description": "Based on the plan determined in the initial stage, the location of the project and the plan of the project are selected."
-    },
-    "step3": {
-      "title": "Construction",
-      "description": "After obtaining the project plan, the construction of the building begins."
-    },
-    "step4": {
-      "title": "Sales",
-      "description": "First of all, our customer service is organized. Information is provided to customers both in person and remotely"
-    }
-  },
-  "features": {
-    "reliability": {
-      "title": "RELIABILITY",
-      "description": "You can expect precisely drafted contracts, all necessary documentation and complete confidentiality."
-    },
-    "quality": {
-      "title": "WORK QUALITY",
-      "description": "Leading architects, builders and designers use original ideas and new approaches in all projects."
-    },
-    "compatibility": {
-      "title": "SCHEDULE COMPLIANCE",
-      "description": "We strictly adhere to the prepared activity plan and implement control and precise execution of all stages of the process."
-    }
-  },
-  "callToAction": {
-    "title": "CONTACT US",
-    "button": "GET IN TOUCH"
-  },
-  "contactForm": {
-    "title": "HAVE A QUESTION?",
-    "description": "Our company specializes in the development and implementation of commercial office and retail property projects, as well as economy class, business class and premium residential developments.",
-    "email": {
-      "label": "Email",
-      "value": "info@alians.az"
-    },
-    "phone": {
-      "label": "Phone",
-      "value": "*2727 / 0554002727"
-    },
-    "address": {
-      "label": "Address",
-      "value": "Sabunchu district, Bakit Gachiyev 21"
-    },
-    "form": {
-      "name": "Name",
-      "phone": "Phone",
-      "question": "Your Question",
-      "placeholder": "Minimum 300 words",
-      "submit": "SEND"
-    }
-  },
-  "faq": {
-    "title": "FREQUENTLY ASKED QUESTIONS",
-    "questions": {
-      "q1": "What types of projects do you specialize in?",
-      "q2": "What is the project completion timeframe?",
-      "q3": "How are prices determined?",
-      "q4": "What are the payment plans?",
-      "q5": "Do you provide quality guarantees?"
-    }
-  },
-  "footer": {
-    "menu": {
-      "title": "MENU",
-      "about": "About",
-      "projects": "Projects",
-      "news": "News",
-      "contact": "Contact"
-    },
-    "projects": {
-      "title": "PROJECTS",
-      "project1": "Metro Park",
-      "project2": "Panorama",
-      "project3": "Villa Olivia",
-      "project4": "Beyaz Plaza"
-    },
-    "privacy": "Privacy Policy"
-  },
-  "stats": {
-    "stat1": {
-      "value": "15+",
-      "description": "Industrial transactions in 2023 - £28.5bn since 2010"
-    },
-    "stat2": {
-      "value": "100+",
-      "description": "Completed projects and satisfied customers"
-    },
-    "stat3": {
-      "value": "50+",
-      "description": "Professional team members and specialists"
-    }
-  },
-  "projectList": {
-    "metro": {
-      "name": "METRO PARK",
-      "location": "Narimanov district"
-    },
-    "panorama": {
-      "name": "PANORAMA PARK",
-      "location": "Nasimi district, Baku"
-    },
-    "villa": {
-      "name": "VILLA OLIVIA",
-      "location": "Badamdar"
-    },
-    "beyaz": {
-      "name": "BEYAZ PLAZA",
-      "location": "White City, Baku"
-    }
-  },
-  "news": {
-    "article1": {
-      "date": "21/07/2023",
-      "title": "Own a mortgage-friendly, ready-to-move-in apartment",
-      "description": "Panyagran building for sale apartments have different considerations while choosing between ready-to-move-in apartments and houses for those looking for affordable options..."
-    },
-    "article2": {
-      "date": "21/07/2023",
-      "title": "Investment opportunities in modern residential complexes",
-      "description": "New residential complexes located in the most prestigious districts of Baku offer excellent opportunities for investors..."
-    }
-  }
+     "navigation": {
+          "projects": "PROJECTS",
+          "about": "ABOUT US",
+          "news": "NEWS",
+          "contact": "CONTACT",
+          "services": "SERVICES",
+          "home": "HOME"
+     },
+     "hero": {
+          "title": "You don't deserve the best",
+          "subtitle": "Development company connecting consumers and construction in Azerbaijan",
+          "description": "We provide the best solutions to achieve our clients' success.",
+          "button": "LEARN MORE"
+     },
+     "about": {
+          "title": "WHO WE ARE?",
+          "description": "Alians Development is a leading company operating in the real estate sector in Azerbaijan. Our mission is to provide our customers with high-quality, modern and reliable living spaces. Our team consists of experienced architects, engineers and project managers who carefully plan and execute every project. We prioritize customer satisfaction and apply the highest standards in every project.",
+          "experience": "YEARS OF EXPERIENCE",
+          "projects": "COMPLETED PROJECTS",
+          "employees": "QUALIFIED EMPLOYEES",
+          "satisfaction": "CUSTOMER SATISFACTION"
+     },
+     "services": {
+          "title": "OUR SERVICES",
+          "web_development": "Web Development",
+          "mobile_development": "Mobile Development",
+          "ui_ux_design": "UI/UX Design",
+          "consulting": "Consulting",
+          "marketing": {
+               "title": "Marketing, business idea and concept",
+               "item1": "Implementation of market research",
+               "item2": "Evaluation of the advisability of investing in any project development of commercial or residential real estate"
+          },
+          "landSelection": {
+               "title": "Selection and purchase of land for construction",
+               "item1": "Assessment of land areas",
+               "item2": "Implementation of legal documentation process",
+               "item3": "Identification of the most suitable locations for construction"
+          },
+          "documentation": {
+               "title": "Obtaining of permission documentation",
+               "item1": "Obtaining all necessary permits and approvals"
+          },
+          "management": {
+               "title": "Integrated management",
+               "item1": "Coordination of all stages of the project"
+          },
+          "engineering": {
+               "title": "Engineering infrastructure",
+               "item1": "Design of water, sewerage and electrical systems",
+               "item2": "Installation of heating and ventilation systems",
+               "item3": "Creation of telecommunications infrastructure"
+          },
+          "funding": {
+               "title": "Fund raising",
+               "item1": "Attracting investors to finance the project"
+          },
+          "construction": {
+               "title": "Construction management",
+               "item1": "Full control of the construction process and quality assurance"
+          },
+          "commissioning": {
+               "title": "Commissioning",
+               "item1": "Completion of the project and delivery to customers"
+          }
+     },
+     "projects": {
+          "title": "Our Projects",
+          "view_all": "View All",
+          "view_details": "View Details",
+          "edit": "Edit",
+          "delete": "Delete",
+          "create_new": "New Project",
+          "no_projects": "No projects yet"
+     },
+     "contact": {
+          "title": "Contact",
+          "name": "Name",
+          "email": "Email",
+          "message": "Message",
+          "send": "Send",
+          "phone": "Phone",
+          "address": "Address"
+     },
+     "common": {
+          "loading": "Loading...",
+          "save": "Save",
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "back": "Back",
+          "next": "Next",
+          "previous": "Previous",
+          "error": "Error",
+          "success": "Success",
+          "learn_more": "LEARN MORE",
+          "view_all": "VIEW ALL",
+          "read_more": "READ MORE"
+     },
+     "footer": {
+          "rights": "All rights reserved",
+          "company": "Alians Development"
+     },
+     "businessModel": {
+          "title": "OUR BUSINESS MODEL",
+          "description": "As Alians Development, our business model consists of 4 main parts. Our team has built the entire process based on your convenience. Your wishes are taken into account at every stage of our business model",
+          "button": "LEARN MORE",
+          "step1": {
+               "title": "Research",
+               "description": "Here, the location, price, apartment renovation that the population mainly wants to buy are researched and offered."
+          },
+          "step2": {
+               "title": "Project",
+               "description": "Based on the plan determined in the initial stage, the location of the project and the plan of the project are selected."
+          },
+          "step3": {
+               "title": "Construction",
+               "description": "After obtaining the project plan, the construction of the building begins."
+          },
+          "step4": {
+               "title": "Sales",
+               "description": "First of all, our customer service is organized. Information is provided to customers both in person and remotely"
+          }
+     },
+     "features": {
+          "reliability": {
+               "title": "RELIABILITY",
+               "description": "You can expect precisely drafted contracts, all necessary documentation and complete confidentiality."
+          },
+          "quality": {
+               "title": "WORK QUALITY",
+               "description": "Leading architects, builders and designers use original ideas and new approaches in all projects."
+          },
+          "compatibility": {
+               "title": "SCHEDULE COMPLIANCE",
+               "description": "We strictly adhere to the prepared activity plan and implement control and precise execution of all stages of the process."
+          }
+     },
+     "callToAction": {
+          "title": "CONTACT US",
+          "button": "GET IN TOUCH"
+     },
+     "contactForm": {
+          "title": "HAVE A QUESTION?",
+          "description": "Our company specializes in the development and implementation of commercial office and retail property projects, as well as economy class, business class and premium residential developments.",
+          "email": {
+               "label": "Email",
+               "value": "info@alians.az"
+          },
+          "phone": {
+               "label": "Phone",
+               "value": "*2727 / 0554002727"
+          },
+          "address": {
+               "label": "Address",
+               "value": "Sabunchu district, Bakit Gachiyev 21"
+          },
+          "form": {
+               "name": "Name",
+               "phone": "Phone",
+               "question": "Your Question",
+               "placeholder": "Minimum 300 words",
+               "submit": "SEND"
+          }
+     },
+     "faq": {
+          "title": "FREQUENTLY ASKED QUESTIONS",
+          "questions": {
+               "q1": "What types of projects do you specialize in?",
+               "q2": "What is the project completion timeframe?",
+               "q3": "How are prices determined?",
+               "q4": "What are the payment plans?",
+               "q5": "Do you provide quality guarantees?"
+          }
+     },
+     "footer": {
+          "menu": {
+               "title": "MENU",
+               "about": "About",
+               "projects": "Projects",
+               "news": "News",
+               "contact": "Contact"
+          },
+          "projects": {
+               "title": "PROJECTS",
+               "project1": "Metro Park",
+               "project2": "Panorama",
+               "project3": "Villa Olivia",
+               "project4": "Beyaz Plaza"
+          },
+          "privacy": "Privacy Policy"
+     },
+     "stats": {
+          "stat1": {
+               "value": "15+",
+               "description": "Industrial transactions in 2023 - £28.5bn since 2010"
+          },
+          "stat2": {
+               "value": "100+",
+               "description": "Completed projects and satisfied customers"
+          },
+          "stat3": {
+               "value": "50+",
+               "description": "Professional team members and specialists"
+          }
+     },
+     "projectList": {
+          "metro": {
+               "name": "METRO PARK",
+               "location": "Narimanov district"
+          },
+          "panorama": {
+               "name": "PANORAMA PARK",
+               "location": "Nasimi district, Baku"
+          },
+          "villa": {
+               "name": "VILLA OLIVIA",
+               "location": "Badamdar"
+          },
+          "beyaz": {
+               "name": "BEYAZ PLAZA",
+               "location": "White City, Baku"
+          }
+     },
+     "news": {
+          "article1": {
+               "date": "21/07/2023",
+               "title": "Own a mortgage-friendly, ready-to-move-in apartment",
+               "description": "Panyagran building for sale apartments have different considerations while choosing between ready-to-move-in apartments and houses for those looking for affordable options..."
+          },
+          "article2": {
+               "date": "21/07/2023",
+               "title": "Investment opportunities in modern residential complexes",
+               "description": "New residential complexes located in the most prestigious districts of Baku offer excellent opportunities for investors..."
+          }
+     }
 }

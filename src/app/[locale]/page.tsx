@@ -1,15 +1,13 @@
-
-
 import Link from 'next/link';
 import { Header, Footer } from '@/components/layout';
-import { 
-  HeroSection, 
-  ProjectsSection, 
-  ServicesSection, 
-  NewsSection, 
-  FAQSection, 
-  ContactSection, 
-  CTASection
+import {
+     HeroSection,
+     ProjectsSection,
+     ServicesSection,
+     NewsSection,
+     FAQSection,
+     ContactSection,
+     CTASection,
 } from '@/components/common';
 import CallToActionSection from '@/components/common/CallToActionSection';
 import FaqSectionSection from '@/components/common/FaqSectioncontent';
@@ -19,33 +17,29 @@ import UnderConstructionPage from '@/components/common/underpage';
 // import FontGuide from '@/components/FontGuide';
 
 export default function Home({
-  params,
+     params,
 }: {
-  params: Promise<{ locale: string }>;
+     params: Promise<{ locale: string }>;
 }) {
-  return (
-    <div className="min-h-screen bg-white">
-    
-      
-      {/* MVC Demo Navigation */}
+     return (
+          <div className="min-h-screen bg-white">
+               {/* MVC Demo Navigation */}
 
+               {/* <UnderConstructionPage/> */}
+               <Header />
+               <HeroSection />
+               <ProjectsSection />
+               <ServicesSection />
+               <NewsSection />
+               <CTASection />
+               <FAQSection />
+               <ContactSection />
+               <CallToActionSection />
+               <FaqSectionSection />
+               <ContactSectionContent />
+               <Footer />
 
-{/* <UnderConstructionPage/> */}
-      <Header />
-      <HeroSection />
-      <ProjectsSection />
-      <ServicesSection />
-      <NewsSection />
-      <CTASection />
-      <FAQSection />
-      <ContactSection />
-      <CallToActionSection />
-      <FaqSectionSection/>
-      <ContactSectionContent/>
-      <Footer />
-
-      
-      {/* <div className="bg-blue-600 text-white py-3">
+               {/* <div className="bg-blue-600 text-white py-3">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
             <p className="text-sm">
@@ -60,8 +54,6 @@ export default function Home({
           </div>
         </div>
       </div> */}
-
-      
-    </div>
-  );
+          </div>
+     );
 }

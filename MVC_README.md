@@ -36,16 +36,19 @@ src/
 ## 🔄 MVC Flow
 
 ### 1. **Model** (Data Layer)
+
 - **Sequelize ORM** ile PostgreSQL entegrasyonu
 - `src/models/Project.ts` - Veri modeli tanımları
 - `src/services/ProjectService.ts` - Veritabanı işlemleri
 
 ### 2. **View** (Presentation Layer)
+
 - **Next.js Server Components** - HTML rendering
 - **Server Actions** - Form submissions
 - `src/app/projects/` - Sayfa componentleri
 
 ### 3. **Controller** (Business Logic)
+
 - `src/controllers/ProjectController.ts` - API logic
 - `src/actions/projectActions.ts` - Form handling
 - HTTP isteklerini yönetir ve servisleri çağırır
@@ -55,35 +58,35 @@ src/
 ### ✅ Tamamlanan MVC Fonksiyonları
 
 1. **CRUD İşlemleri**
-   - ✅ Proje listesi (GET /projects)
-   - ✅ Proje detayı (GET /projects/:id)
-   - ✅ Proje oluşturma (POST /projects)
-   - ✅ Proje güncelleme (PUT /projects/:id)
-   - ✅ Proje silme (DELETE /projects/:id)
+     - ✅ Proje listesi (GET /projects)
+     - ✅ Proje detayı (GET /projects/:id)
+     - ✅ Proje oluşturma (POST /projects)
+     - ✅ Proje güncelleme (PUT /projects/:id)
+     - ✅ Proje silme (DELETE /projects/:id)
 
 2. **HTML Form Submissions**
-   - ✅ Server Actions ile direkt POST
-   - ✅ Form validation
-   - ✅ Error handling
-   - ✅ Success/Error redirects
+     - ✅ Server Actions ile direkt POST
+     - ✅ Form validation
+     - ✅ Error handling
+     - ✅ Success/Error redirects
 
 3. **Database Integration**
-   - ✅ PostgreSQL connection
-   - ✅ Sequelize ORM
-   - ✅ Model definitions
-   - ✅ Database sync
+     - ✅ PostgreSQL connection
+     - ✅ Sequelize ORM
+     - ✅ Model definitions
+     - ✅ Database sync
 
 ### 🚀 Gelecek için Hazır
 
 1. **Amazon S3 Integration**
-   - ✅ FileService.ts hazır
-   - ✅ Model'de imageUrl ve attachments alanları
-   - 🔄 S3 SDK entegrasyonu için hazır
+     - ✅ FileService.ts hazır
+     - ✅ Model'de imageUrl ve attachments alanları
+     - 🔄 S3 SDK entegrasyonu için hazır
 
 2. **Dosya Yükleme**
-   - ✅ File validation fonksiyonları
-   - ✅ Güvenli dosya isimlendirme
-   - ✅ Proje-bazlı klasör organizasyonu
+     - ✅ File validation fonksiyonları
+     - ✅ Güvenli dosya isimlendirme
+     - ✅ Proje-bazlı klasör organizasyonu
 
 ## 🛠️ Teknoloji Stack'i
 
@@ -96,11 +99,13 @@ src/
 ## 🚀 Çalıştırma
 
 ### 1. Bağımlılıkları Yükle
+
 ```bash
 npm install
 ```
 
 ### 2. Environment Variables (.env.local)
+
 ```env
 DATABASE_URL=postgresql://postgres:4pPAn4kpXFK3@65.108.255.102:5432/alians_db
 AWS_ACCESS_KEY_ID=your_access_key
@@ -110,11 +115,13 @@ AWS_S3_BUCKET=your-bucket-name
 ```
 
 ### 3. Development Server
+
 ```bash
 npm run dev
 ```
 
 ### 4. Tarayıcıda Aç
+
 ```
 http://localhost:3001
 ```
@@ -124,9 +131,11 @@ Uygulamaya localhost üzerinden erişebilirsiniz: `http://localhost:3001`
 ## 📖 Kullanım
 
 ### Ana Sayfa
+
 - MVC demo navigation'u ile `/projects` sayfasına git
 
 ### Proje Yönetimi
+
 1. **Listele**: `/projects` - Tüm projeler
 2. **Oluştur**: `/projects/create` - Yeni proje formu
 3. **Görüntüle**: `/projects/:id` - Proje detayları
@@ -134,6 +143,7 @@ Uygulamaya localhost üzerinden erişebilirsiniz: `http://localhost:3001`
 5. **Sil**: Delete button ile onaylı silme
 
 ### API Endpoints
+
 - `GET /api/projects` - Proje listesi
 - `POST /api/projects` - Proje oluşturma
 - `GET /api/projects/:id` - Tek proje
@@ -150,6 +160,7 @@ Uygulamaya localhost üzerinden erişebilirsiniz: `http://localhost:3001`
 ## 📈 Amazon S3 Entegrasyonu
 
 ### FileService.ts Özellikleri
+
 - Dosya türü validasyonu
 - Dosya boyutu kontrolü
 - Güvenli dosya isimlendirme
@@ -157,6 +168,7 @@ Uygulamaya localhost üzerinden erişebilirsiniz: `http://localhost:3001`
 - S3 upload/delete fonksiyonları (hazır)
 
 ### S3 Kullanımı için:
+
 1. AWS credentials'ları `.env.local`'e ekle
 2. `FileService.ts`'deki TODO kısımlarını S3 SDK ile değiştir
 3. Model'deki `imageUrl` ve `attachments` alanlarını kullan

@@ -16,27 +16,27 @@ API hem JSON hem de FormData formatlarını destekler. FormData formatı dosya y
 
 ### Temel Alanlar
 
-| Alan | Tür | Zorunlu | Açıklama |
-|------|-----|---------|----------|
-| name | string | Evet | Proje adı |
-| description | string | Hayır | Proje açıklaması |
-| image | file | Hayır | Ana proje görseli |
-| location | string | Hayır | Proje konumu |
-| status | string | Hayır | Proje durumu |
-| year | number | Hayır | Proje yılı |
-| area | string | Hayır | Proje alanı |
-| block | number | Hayır | Blok sayısı |
+| Alan        | Tür    | Zorunlu | Açıklama          |
+| ----------- | ------ | ------- | ----------------- |
+| name        | string | Evet    | Proje adı         |
+| description | string | Hayır   | Proje açıklaması  |
+| image       | file   | Hayır   | Ana proje görseli |
+| location    | string | Hayır   | Proje konumu      |
+| status      | string | Hayır   | Proje durumu      |
+| year        | number | Hayır   | Proje yılı        |
+| area        | string | Hayır   | Proje alanı       |
+| block       | number | Hayır   | Blok sayısı       |
 
 ### İlişkisel Alanlar
 
-| Alan | Tür | Zorunlu | Açıklama |
-|------|-----|---------|----------|
-| headerImage | file | Hayır | Başlık görseli |
-| catalogUrl | file | Hayır | Katalog dosyası |
-| featureTitle | string | Hayır | Özellik başlığı |
-| featureDescription | string | Hayır | Özellik açıklaması |
-| featureImage | file | Hayır | Özellik görseli |
-| generalPlanImage | file | Hayır | Genel plan görseli |
+| Alan               | Tür    | Zorunlu | Açıklama           |
+| ------------------ | ------ | ------- | ------------------ |
+| headerImage        | file   | Hayır   | Başlık görseli     |
+| catalogUrl         | file   | Hayır   | Katalog dosyası    |
+| featureTitle       | string | Hayır   | Özellik başlığı    |
+| featureDescription | string | Hayır   | Özellik açıklaması |
+| featureImage       | file   | Hayır   | Özellik görseli    |
+| generalPlanImage   | file   | Hayır   | Genel plan görseli |
 
 ### İç İçe Diziler
 
@@ -115,59 +115,59 @@ JSON formatında istek yaparken dosya yüklemesi yapılamaz. Sadece URL'ler kull
 
 ```json
 {
-  "name": "Metro Park Bakıxanov",
-  "description": "Metro Park Bakıxanov yaşayış kompleksi unikal müasir layihəsi üzrə inşa edilən, rahat planlı mənzillərə sahib olan çoxmərtəbəli binalardan ibarətdir.",
-  "location": "Bakıxanov qəsəbəsi, Sülh küçəsi",
-  "status": "Təhvil verilib",
-  "year": 2019,
-  "area": "4.5 Hektar",
-  "block": 12,
-  "headerImageUrl": "/uploads/projects/metropark-header.jpg",
-  "catalogUrl": "/uploads/catalogs/metropark-catalog.pdf",
-  "featureTitle": "İnsan Həyatına Dəyər",
-  "featureDescription": "Həyatın dəyərini anlayanlar üçün dizayn edilmiş bu məkan, sizə və sevdiklərinizə keyfiyyətli zaman keçirmək üçün hər cür imkan yaradır.",
-  "featureImageUrl": "/uploads/features/feature-bg.jpg",
-  "generalPlanImageUrl": "/uploads/plans/general-plan.jpg",
-  "interiorImages": [
-    {
-      "imageUrl": "/uploads/interiors/metropark-livingroom.jpg",
-      "caption": "Qonaq otağı"
-    },
-    {
-      "imageUrl": "/uploads/interiors/metropark-bedroom.jpg",
-      "caption": "Yataq otağı"
-    }
-  ],
-  "constructionImages": [
-    {
-      "imageUrl": "/uploads/construction/progress-1.jpg"
-    },
-    {
-      "imageUrl": "/uploads/construction/progress-2.jpg"
-    }
-  ],
-  "apartments": [
-    {
-      "apartmentType": "1",
-      "squareMeter": "44.40 m²",
-      "layoutImageUrl": "/uploads/layouts/1-room.png",
-      "totalArea": 44.40,
-      "roomArea": 16.45,
-      "kitchenArea": 12.00,
-      "bathroomArea": 4.50,
-      "balconyArea": 4.40
-    },
-    {
-      "apartmentType": "2",
-      "squareMeter": "68.50 m²",
-      "layoutImageUrl": "/uploads/layouts/2-room.png",
-      "totalArea": 68.50,
-      "roomArea": 25.00,
-      "kitchenArea": 15.00,
-      "bathroomArea": 5.00,
-      "balconyArea": 6.50
-    }
-  ]
+     "name": "Metro Park Bakıxanov",
+     "description": "Metro Park Bakıxanov yaşayış kompleksi unikal müasir layihəsi üzrə inşa edilən, rahat planlı mənzillərə sahib olan çoxmərtəbəli binalardan ibarətdir.",
+     "location": "Bakıxanov qəsəbəsi, Sülh küçəsi",
+     "status": "Təhvil verilib",
+     "year": 2019,
+     "area": "4.5 Hektar",
+     "block": 12,
+     "headerImageUrl": "/uploads/projects/metropark-header.jpg",
+     "catalogUrl": "/uploads/catalogs/metropark-catalog.pdf",
+     "featureTitle": "İnsan Həyatına Dəyər",
+     "featureDescription": "Həyatın dəyərini anlayanlar üçün dizayn edilmiş bu məkan, sizə və sevdiklərinizə keyfiyyətli zaman keçirmək üçün hər cür imkan yaradır.",
+     "featureImageUrl": "/uploads/features/feature-bg.jpg",
+     "generalPlanImageUrl": "/uploads/plans/general-plan.jpg",
+     "interiorImages": [
+          {
+               "imageUrl": "/uploads/interiors/metropark-livingroom.jpg",
+               "caption": "Qonaq otağı"
+          },
+          {
+               "imageUrl": "/uploads/interiors/metropark-bedroom.jpg",
+               "caption": "Yataq otağı"
+          }
+     ],
+     "constructionImages": [
+          {
+               "imageUrl": "/uploads/construction/progress-1.jpg"
+          },
+          {
+               "imageUrl": "/uploads/construction/progress-2.jpg"
+          }
+     ],
+     "apartments": [
+          {
+               "apartmentType": "1",
+               "squareMeter": "44.40 m²",
+               "layoutImageUrl": "/uploads/layouts/1-room.png",
+               "totalArea": 44.4,
+               "roomArea": 16.45,
+               "kitchenArea": 12.0,
+               "bathroomArea": 4.5,
+               "balconyArea": 4.4
+          },
+          {
+               "apartmentType": "2",
+               "squareMeter": "68.50 m²",
+               "layoutImageUrl": "/uploads/layouts/2-room.png",
+               "totalArea": 68.5,
+               "roomArea": 25.0,
+               "kitchenArea": 15.0,
+               "bathroomArea": 5.0,
+               "balconyArea": 6.5
+          }
+     ]
 }
 ```
 
@@ -177,73 +177,73 @@ API başarılı bir şekilde işlem tamamlandığında aşağıdaki formatta yan
 
 ```json
 {
-  "success": true,
-  "message": "Proje başarıyla oluşturuldu",
-  "data": {
-    "id": 1,
-    "name": "Metro Park Bakıxanov",
-    "description": "Metro Park Bakıxanov yaşayış kompleksi unikal müasir layihəsi üzrə inşa edilən, rahat planlı mənzillərə sahib olan çoxmərtəbəli binalardan ibarətdir.",
-    "imageUrl": "/uploads/projects/metropark-main.jpg",
-    "createdAt": "2023-05-15T10:30:00.000Z",
-    "updatedAt": "2023-05-15T10:30:00.000Z",
-    "location": "Bakıxanov qəsəbəsi, Sülh küçəsi",
-    "status": "Təhvil verilib",
-    "year": 2019,
-    "area": "4.5 Hektar",
-    "block": 12,
-    "headerImageUrl": "/uploads/projects/metropark-header.jpg",
-    "catalogUrl": "/uploads/catalogs/metropark-catalog.pdf",
-    "featureTitle": "İnsan Həyatına Dəyər",
-    "featureDescription": "Həyatın dəyərini anlayanlar üçün dizayn edilmiş bu məkan, sizə və sevdiklərinizə keyfiyyətli zaman keçirmək üçün hər cür imkan yaradır.",
-    "featureImageUrl": "/uploads/features/feature-bg.jpg",
-    "generalPlanImageUrl": "/uploads/plans/general-plan.jpg",
-    "interiorImages": [
-      {
-        "id": 1,
-        "imageUrl": "/uploads/interiors/metropark-livingroom.jpg",
-        "caption": "Qonaq otağı"
-      },
-      {
-        "id": 2,
-        "imageUrl": "/uploads/interiors/metropark-bedroom.jpg",
-        "caption": "Yataq otağı"
-      }
-    ],
-    "constructionImages": [
-      {
-        "id": 1,
-        "imageUrl": "/uploads/construction/progress-1.jpg"
-      },
-      {
-        "id": 2,
-        "imageUrl": "/uploads/construction/progress-2.jpg"
-      }
-    ],
-    "apartments": [
-      {
-        "id": 1,
-        "apartmentType": "1",
-        "squareMeter": "44.40 m²",
-        "layoutImageUrl": "/uploads/layouts/1-room.png",
-        "totalArea": 44.40,
-        "roomArea": 16.45,
-        "kitchenArea": 12.00,
-        "bathroomArea": 4.50,
-        "balconyArea": 4.40
-      },
-      {
-        "id": 2,
-        "apartmentType": "2",
-        "squareMeter": "68.50 m²",
-        "layoutImageUrl": "/uploads/layouts/2-room.png",
-        "totalArea": 68.50,
-        "roomArea": 25.00,
-        "kitchenArea": 15.00,
-        "bathroomArea": 5.00,
-        "balconyArea": 6.50
-      }
-    ]
-  }
+     "success": true,
+     "message": "Proje başarıyla oluşturuldu",
+     "data": {
+          "id": 1,
+          "name": "Metro Park Bakıxanov",
+          "description": "Metro Park Bakıxanov yaşayış kompleksi unikal müasir layihəsi üzrə inşa edilən, rahat planlı mənzillərə sahib olan çoxmərtəbəli binalardan ibarətdir.",
+          "imageUrl": "/uploads/projects/metropark-main.jpg",
+          "createdAt": "2023-05-15T10:30:00.000Z",
+          "updatedAt": "2023-05-15T10:30:00.000Z",
+          "location": "Bakıxanov qəsəbəsi, Sülh küçəsi",
+          "status": "Təhvil verilib",
+          "year": 2019,
+          "area": "4.5 Hektar",
+          "block": 12,
+          "headerImageUrl": "/uploads/projects/metropark-header.jpg",
+          "catalogUrl": "/uploads/catalogs/metropark-catalog.pdf",
+          "featureTitle": "İnsan Həyatına Dəyər",
+          "featureDescription": "Həyatın dəyərini anlayanlar üçün dizayn edilmiş bu məkan, sizə və sevdiklərinizə keyfiyyətli zaman keçirmək üçün hər cür imkan yaradır.",
+          "featureImageUrl": "/uploads/features/feature-bg.jpg",
+          "generalPlanImageUrl": "/uploads/plans/general-plan.jpg",
+          "interiorImages": [
+               {
+                    "id": 1,
+                    "imageUrl": "/uploads/interiors/metropark-livingroom.jpg",
+                    "caption": "Qonaq otağı"
+               },
+               {
+                    "id": 2,
+                    "imageUrl": "/uploads/interiors/metropark-bedroom.jpg",
+                    "caption": "Yataq otağı"
+               }
+          ],
+          "constructionImages": [
+               {
+                    "id": 1,
+                    "imageUrl": "/uploads/construction/progress-1.jpg"
+               },
+               {
+                    "id": 2,
+                    "imageUrl": "/uploads/construction/progress-2.jpg"
+               }
+          ],
+          "apartments": [
+               {
+                    "id": 1,
+                    "apartmentType": "1",
+                    "squareMeter": "44.40 m²",
+                    "layoutImageUrl": "/uploads/layouts/1-room.png",
+                    "totalArea": 44.4,
+                    "roomArea": 16.45,
+                    "kitchenArea": 12.0,
+                    "bathroomArea": 4.5,
+                    "balconyArea": 4.4
+               },
+               {
+                    "id": 2,
+                    "apartmentType": "2",
+                    "squareMeter": "68.50 m²",
+                    "layoutImageUrl": "/uploads/layouts/2-room.png",
+                    "totalArea": 68.5,
+                    "roomArea": 25.0,
+                    "kitchenArea": 15.0,
+                    "bathroomArea": 5.0,
+                    "balconyArea": 6.5
+               }
+          ]
+     }
 }
 ```
 

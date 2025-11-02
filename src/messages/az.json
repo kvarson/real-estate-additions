@@ -1,237 +1,237 @@
 {
-  "navigation": {
-    "projects": "LAYİHƏLƏR",
-    "about": "HAQQIMIZDA",
-    "news": "XƏBƏRLƏR",
-    "contact": "ƏLAQƏ",
-    "services": "XİDMƏTLƏR",
-    "home": "ANA SƏHİFƏ"
-  },
-  "hero": {
-    "title": "Sİz ən yaxşısına Layİqsİz",
-    "subtitle": "Azərbaycanda istehlakçı və tikintini birləşdirən inkişaf şirkəti",
-    "description": "Biz müştərilərimizin uğuruna nail olmaq üçün ən yaxşı həlləri təqdim edirik.",
-    "button": "ƏTRAFLI"
-  },
-  "about": {
-    "title": "BİZ KİMİK?",
-    "description": "Alians Development - Azərbaycanda daşınmaz əmlak sektorunda fəaliyyət göstərən aparıcı şirkətdir. Bizim missiyamız müştərilərimizə keyfiyyətli, müasir və etibarlı yaşayış məkanları təqdim etməkdir. Komandamız təcrübəli memarlar, mühəndislər və layihə menecerlərindən ibarətdir ki, onlar hər bir layihəni diqqətlə planlaşdırır və icra edirlər. Biz müştəri məmnuniyyətini prioritet hesab edirik və hər bir layihədə ən yüksək standartları tətbiq edirik.",
-    "experience": "İLLİK TƏCRÜBƏMİZ",
-    "projects": "TİKİLMİŞ LAYİHƏ",
-    "employees": "İXTİSASLI İŞÇİ",
-    "satisfaction": "MÜŞTƏRİ RAZILIĞI"
-  },
-  "services": {
-    "title": "XİDMƏTLƏRİMİZ",
-    "web_development": "Veb İnkişaf",
-    "mobile_development": "Mobil İnkişaf",
-    "ui_ux_design": "UI/UX Dizayn",
-    "consulting": "Məsləhət",
-    "marketing": {
-      "title": "Marketinq, biznes ideyası və konsepsiya",
-      "item1": "Bazar araşdırmasının həyata keçirilməsi",
-      "item2": "Kommersiya və ya yaşayış daşınmaz əmlakının istənilən layihə inkişafına investisiya qoyulmasının məqsədəuyğunluğunun qiymətləndirilməsi"
-    },
-    "landSelection": {
-      "title": "Tikinti üçün torpaq seçimi və alınması",
-      "item1": "Torpaq sahələrinin qiymətləndirilməsi",
-      "item2": "Hüquqi sənədləşmə prosesinin həyata keçirilməsi",
-      "item3": "Tikinti üçün ən münasib yerlərin müəyyən edilməsi"
-    },
-    "documentation": {
-      "title": "İcazə sənədlərinin alınması",
-      "item1": "Bütün lazımi icazə və razılıqların əldə edilməsi"
-    },
-    "management": {
-      "title": "İnteqrasiya edilmiş idarəetmə",
-      "item1": "Layihənin bütün mərhələlərinin koordinasiyası"
-    },
-    "engineering": {
-      "title": "Mühəndis infrastrukturu",
-      "item1": "Su, kanalizasiya və elektrik sistemlərinin layihələndirilməsi",
-      "item2": "İstilik və ventilyasiya sistemlərinin quraşdırılması",
-      "item3": "Telekommunikasiya infrastrukturunun yaradılması"
-    },
-    "funding": {
-      "title": "Fond toplama",
-      "item1": "Layihənin maliyyələşdirilməsi üçün investorların cəlb edilməsi"
-    },
-    "construction": {
-      "title": "Tikinti idarəetməsi",
-      "item1": "Tikinti prosesinin tam nəzarəti və keyfiyyət təminatı"
-    },
-    "commissioning": {
-      "title": "İstifadəyə verilmə",
-      "item1": "Layihənin tamamlanması və müştərilərə təhvil verilməsi"
-    }
-  },
-  "projects": {
-    "title": "Layihələrimiz",
-    "view_all": "Hamısına Bax",
-    "view_details": "Təfərrüatlar",
-    "edit": "Redaktə Et",
-    "delete": "Sil",
-    "create_new": "Yeni Layihə",
-    "no_projects": "Hələ layihə yoxdur"
-  },
-  "contact": {
-    "title": "Əlaqə",
-    "name": "Ad",
-    "email": "E-poçt",
-    "message": "Mesaj",
-    "send": "Göndər",
-    "phone": "Telefon",
-    "address": "Ünvan"
-  },
-  "common": {
-    "loading": "Yüklənir...",
-    "save": "Yadda Saxla",
-    "cancel": "Ləğv Et",
-    "submit": "Təqdim Et",
-    "back": "Geri",
-    "next": "Növbəti",
-    "previous": "Əvvəlki",
-    "error": "Xəta",
-    "success": "Uğurlu",
-    "learn_more": "LAHİYƏLƏRİMİZ",
-    "view_all": "HAMİSINA BAX",
-    "read_more": "ƏTRAFLI"
-  },
-  "footer": {
-    "rights": "Bütün hüquqlar qorunur",
-    "company": "Alians Development"
-  },
-  "businessModel": {
-    "title": "BİZNES MODELİMİZ",
-    "description": "Alians Development olaraq biznes modelimiz 4 əsas hissədən ibarətdir. Komandamız bütün prosesi Sizin rahatlığınız əsasında qurub. Biznes modelimizin hər bir mərhələsində arzularınız nəzərə alınır",
-    "button": "ƏTRAFLI",
-    "step1": {
-      "title": "Araşdırma",
-      "description": "Burada əhalinin əsasən almaq istədiyi məkan, qiymət, mənzil təmiri, araşdırılır və təklif olunur."
-    },
-    "step2": {
-      "title": "Layihə",
-      "description": "İlkin mərhələdə təyin olunan plana əsasən layihənin məkanı, layihənin planı seçilir."
-    },
-    "step3": {
-      "title": "İnşaat",
-      "description": "Layihənin planını əldə etdikdən sonra binanın inşasına başlanılır."
-    },
-    "step4": {
-      "title": "Satış",
-      "description": "İlk növbədə müştəri xidmətimiz təşkil olunur. Müştərilərə həm əyani həm də qiyabi şəkildə məlumat verilir"
-    }
-  },
-  "features": {
-    "reliability": {
-      "title": "ETİBARLILIQ",
-      "description": "Sizi dəqiq tərtib edilmiş müqavilə, bütün lazımi sənədləşmələr və tam məxfilik gözləyir."
-    },
-    "quality": {
-      "title": "İŞİN KEYFİYYƏTİ",
-      "description": "Aparıcı memarlar, inşaatçılar və dizaynerlər bütün layihələrdə orijinal ideyalardan və yeni yanaşmadan istifadə edirlər."
-    },
-    "compatibility": {
-      "title": "QRAFİKƏ UYĞUNLUQ",
-      "description": "Biz hazırlanmış fəaliyyət planına ciddi əməl edirik və prosesin bütün mərhələlərinə nəzarəti və dəqiq icrasını həyata keçiririk."
-    }
-  },
-  "callToAction": {
-    "title": "BİZLə ƏLAQƏ SAXLAYIN",
-    "button": "MÜRACİƏT ET"
-  },
-  "contactForm": {
-    "title": "SUALINIZ VAR?",
-    "description": "Şirkətimiz ofis və ticarət əmlakı, həmçinin iqtisadi sinif, biznes sinif və premium sinif yaşayış layihələrinin inkişafı və tətbiqində ixtisaslaşır.",
-    "email": {
-      "label": "E-poçt",
-      "value": "info@alians.az"
-    },
-    "phone": {
-      "label": "Telefon",
-      "value": "*2727 / 0554002727"
-    },
-    "address": {
-      "label": "Ünvan",
-      "value": "Sabunçu rayonu, Bakıt Qəchiyev 21"
-    },
-    "form": {
-      "name": "Ad",
-      "phone": "Telefon",
-      "question": "Sualınız",
-      "placeholder": "Min 300 söz",
-      "submit": "GÖNDƏR"
-    }
-  },
-  "faq": {
-    "title": "TEZ-TEZ VERİLƏN SUALLAR",
-    "questions": {
-      "q1": "Hansı növ layihələrdə ixtisaslaşırsınız?",
-      "q2": "Layihənin tamamlanma müddəti necədir?",
-      "q3": "Qiymətlər necə müəyyən edilir?",
-      "q4": "Ödəniş planları nədir?",
-      "q5": "Keyfiyyət zəmanəti verilə bilərmi?"
-    }
-  },
-  "footer": {
-    "menu": {
-      "title": "MENU",
-      "about": "Haqqımızda",
-      "projects": "Layihələr",
-      "news": "Xəbərlər",
-      "contact": "Əlaqə"
-    },
-    "projects": {
-      "title": "LAYİHƏLƏR",
-      "project1": "Metro Park",
-      "project2": "Panorama",
-      "project3": "Villa Olivia",
-      "project4": "Beyaz Plaza"
-    },
-    "privacy": "Gizlilik Siyasəti"
-  },
-  "stats": {
-    "stat1": {
-      "value": "15+",
-      "description": "2023-cü ildə sənaye əməliyyatları - 2010-cu ildən bəri 28.5 milyard £"
-    },
-    "stat2": {
-      "value": "100+",
-      "description": "Tamamlanmış layihələr və məmnun müştərilər"
-    },
-    "stat3": {
-      "value": "50+",
-      "description": "Peşəkar komanda üzvləri və mütəxəssislər"
-    }
-  },
-  "projectList": {
-    "metro": {
-      "name": "METRO PARK",
-      "location": "Nərimanov rayonu"
-    },
-    "panorama": {
-      "name": "PANORAMA PARK",
-      "location": "Nəsimi rayonu, Bakı"
-    },
-    "villa": {
-      "name": "VILLA OLIVIA",
-      "location": "Badamdar"
-    },
-    "beyaz": {
-      "name": "BEYAZ PLAZA",
-      "location": "Ağ şəhər, Bakı"
-    }
-  },
-  "news": {
-    "article1": {
-      "date": "21/07/2023",
-      "title": "İpoteka dostu, köçməyə hazır mənzil əldə edin",
-      "description": "Panyaqran binası satılır mənzillər sərfəli axtaranlar üçün köçməyə hazır mənzillər və evlər arasında seçim edərkən müxtəlif mülahizələr var..."
-    },
-    "article2": {
-      "date": "21/07/2023",
-      "title": "Müasir yaşayış komplekslərində investisiya imkanları",
-      "description": "Bakının ən prestigli rayonlarında yerləşən yeni yaşayış kompleksləri investorlar üçün əla imkanlar təqdim edir..."
-    }
-  }
+     "navigation": {
+          "projects": "LAYİHƏLƏR",
+          "about": "HAQQIMIZDA",
+          "news": "XƏBƏRLƏR",
+          "contact": "ƏLAQƏ",
+          "services": "XİDMƏTLƏR",
+          "home": "ANA SƏHİFƏ"
+     },
+     "hero": {
+          "title": "Sİz ən yaxşısına Layİqsİz",
+          "subtitle": "Azərbaycanda istehlakçı və tikintini birləşdirən inkişaf şirkəti",
+          "description": "Biz müştərilərimizin uğuruna nail olmaq üçün ən yaxşı həlləri təqdim edirik.",
+          "button": "ƏTRAFLI"
+     },
+     "about": {
+          "title": "BİZ KİMİK?",
+          "description": "Alians Development - Azərbaycanda daşınmaz əmlak sektorunda fəaliyyət göstərən aparıcı şirkətdir. Bizim missiyamız müştərilərimizə keyfiyyətli, müasir və etibarlı yaşayış məkanları təqdim etməkdir. Komandamız təcrübəli memarlar, mühəndislər və layihə menecerlərindən ibarətdir ki, onlar hər bir layihəni diqqətlə planlaşdırır və icra edirlər. Biz müştəri məmnuniyyətini prioritet hesab edirik və hər bir layihədə ən yüksək standartları tətbiq edirik.",
+          "experience": "İLLİK TƏCRÜBƏMİZ",
+          "projects": "TİKİLMİŞ LAYİHƏ",
+          "employees": "İXTİSASLI İŞÇİ",
+          "satisfaction": "MÜŞTƏRİ RAZILIĞI"
+     },
+     "services": {
+          "title": "XİDMƏTLƏRİMİZ",
+          "web_development": "Veb İnkişaf",
+          "mobile_development": "Mobil İnkişaf",
+          "ui_ux_design": "UI/UX Dizayn",
+          "consulting": "Məsləhət",
+          "marketing": {
+               "title": "Marketinq, biznes ideyası və konsepsiya",
+               "item1": "Bazar araşdırmasının həyata keçirilməsi",
+               "item2": "Kommersiya və ya yaşayış daşınmaz əmlakının istənilən layihə inkişafına investisiya qoyulmasının məqsədəuyğunluğunun qiymətləndirilməsi"
+          },
+          "landSelection": {
+               "title": "Tikinti üçün torpaq seçimi və alınması",
+               "item1": "Torpaq sahələrinin qiymətləndirilməsi",
+               "item2": "Hüquqi sənədləşmə prosesinin həyata keçirilməsi",
+               "item3": "Tikinti üçün ən münasib yerlərin müəyyən edilməsi"
+          },
+          "documentation": {
+               "title": "İcazə sənədlərinin alınması",
+               "item1": "Bütün lazımi icazə və razılıqların əldə edilməsi"
+          },
+          "management": {
+               "title": "İnteqrasiya edilmiş idarəetmə",
+               "item1": "Layihənin bütün mərhələlərinin koordinasiyası"
+          },
+          "engineering": {
+               "title": "Mühəndis infrastrukturu",
+               "item1": "Su, kanalizasiya və elektrik sistemlərinin layihələndirilməsi",
+               "item2": "İstilik və ventilyasiya sistemlərinin quraşdırılması",
+               "item3": "Telekommunikasiya infrastrukturunun yaradılması"
+          },
+          "funding": {
+               "title": "Fond toplama",
+               "item1": "Layihənin maliyyələşdirilməsi üçün investorların cəlb edilməsi"
+          },
+          "construction": {
+               "title": "Tikinti idarəetməsi",
+               "item1": "Tikinti prosesinin tam nəzarəti və keyfiyyət təminatı"
+          },
+          "commissioning": {
+               "title": "İstifadəyə verilmə",
+               "item1": "Layihənin tamamlanması və müştərilərə təhvil verilməsi"
+          }
+     },
+     "projects": {
+          "title": "Layihələrimiz",
+          "view_all": "Hamısına Bax",
+          "view_details": "Təfərrüatlar",
+          "edit": "Redaktə Et",
+          "delete": "Sil",
+          "create_new": "Yeni Layihə",
+          "no_projects": "Hələ layihə yoxdur"
+     },
+     "contact": {
+          "title": "Əlaqə",
+          "name": "Ad",
+          "email": "E-poçt",
+          "message": "Mesaj",
+          "send": "Göndər",
+          "phone": "Telefon",
+          "address": "Ünvan"
+     },
+     "common": {
+          "loading": "Yüklənir...",
+          "save": "Yadda Saxla",
+          "cancel": "Ləğv Et",
+          "submit": "Təqdim Et",
+          "back": "Geri",
+          "next": "Növbəti",
+          "previous": "Əvvəlki",
+          "error": "Xəta",
+          "success": "Uğurlu",
+          "learn_more": "LAHİYƏLƏRİMİZ",
+          "view_all": "HAMİSINA BAX",
+          "read_more": "ƏTRAFLI"
+     },
+     "footer": {
+          "rights": "Bütün hüquqlar qorunur",
+          "company": "Alians Development"
+     },
+     "businessModel": {
+          "title": "BİZNES MODELİMİZ",
+          "description": "Alians Development olaraq biznes modelimiz 4 əsas hissədən ibarətdir. Komandamız bütün prosesi Sizin rahatlığınız əsasında qurub. Biznes modelimizin hər bir mərhələsində arzularınız nəzərə alınır",
+          "button": "ƏTRAFLI",
+          "step1": {
+               "title": "Araşdırma",
+               "description": "Burada əhalinin əsasən almaq istədiyi məkan, qiymət, mənzil təmiri, araşdırılır və təklif olunur."
+          },
+          "step2": {
+               "title": "Layihə",
+               "description": "İlkin mərhələdə təyin olunan plana əsasən layihənin məkanı, layihənin planı seçilir."
+          },
+          "step3": {
+               "title": "İnşaat",
+               "description": "Layihənin planını əldə etdikdən sonra binanın inşasına başlanılır."
+          },
+          "step4": {
+               "title": "Satış",
+               "description": "İlk növbədə müştəri xidmətimiz təşkil olunur. Müştərilərə həm əyani həm də qiyabi şəkildə məlumat verilir"
+          }
+     },
+     "features": {
+          "reliability": {
+               "title": "ETİBARLILIQ",
+               "description": "Sizi dəqiq tərtib edilmiş müqavilə, bütün lazımi sənədləşmələr və tam məxfilik gözləyir."
+          },
+          "quality": {
+               "title": "İŞİN KEYFİYYƏTİ",
+               "description": "Aparıcı memarlar, inşaatçılar və dizaynerlər bütün layihələrdə orijinal ideyalardan və yeni yanaşmadan istifadə edirlər."
+          },
+          "compatibility": {
+               "title": "QRAFİKƏ UYĞUNLUQ",
+               "description": "Biz hazırlanmış fəaliyyət planına ciddi əməl edirik və prosesin bütün mərhələlərinə nəzarəti və dəqiq icrasını həyata keçiririk."
+          }
+     },
+     "callToAction": {
+          "title": "BİZLə ƏLAQƏ SAXLAYIN",
+          "button": "MÜRACİƏT ET"
+     },
+     "contactForm": {
+          "title": "SUALINIZ VAR?",
+          "description": "Şirkətimiz ofis və ticarət əmlakı, həmçinin iqtisadi sinif, biznes sinif və premium sinif yaşayış layihələrinin inkişafı və tətbiqində ixtisaslaşır.",
+          "email": {
+               "label": "E-poçt",
+               "value": "info@alians.az"
+          },
+          "phone": {
+               "label": "Telefon",
+               "value": "*2727 / 0554002727"
+          },
+          "address": {
+               "label": "Ünvan",
+               "value": "Sabunçu rayonu, Bakıt Qəchiyev 21"
+          },
+          "form": {
+               "name": "Ad",
+               "phone": "Telefon",
+               "question": "Sualınız",
+               "placeholder": "Min 300 söz",
+               "submit": "GÖNDƏR"
+          }
+     },
+     "faq": {
+          "title": "TEZ-TEZ VERİLƏN SUALLAR",
+          "questions": {
+               "q1": "Hansı növ layihələrdə ixtisaslaşırsınız?",
+               "q2": "Layihənin tamamlanma müddəti necədir?",
+               "q3": "Qiymətlər necə müəyyən edilir?",
+               "q4": "Ödəniş planları nədir?",
+               "q5": "Keyfiyyət zəmanəti verilə bilərmi?"
+          }
+     },
+     "footer": {
+          "menu": {
+               "title": "MENU",
+               "about": "Haqqımızda",
+               "projects": "Layihələr",
+               "news": "Xəbərlər",
+               "contact": "Əlaqə"
+          },
+          "projects": {
+               "title": "LAYİHƏLƏR",
+               "project1": "Metro Park",
+               "project2": "Panorama",
+               "project3": "Villa Olivia",
+               "project4": "Beyaz Plaza"
+          },
+          "privacy": "Gizlilik Siyasəti"
+     },
+     "stats": {
+          "stat1": {
+               "value": "15+",
+               "description": "2023-cü ildə sənaye əməliyyatları - 2010-cu ildən bəri 28.5 milyard £"
+          },
+          "stat2": {
+               "value": "100+",
+               "description": "Tamamlanmış layihələr və məmnun müştərilər"
+          },
+          "stat3": {
+               "value": "50+",
+               "description": "Peşəkar komanda üzvləri və mütəxəssislər"
+          }
+     },
+     "projectList": {
+          "metro": {
+               "name": "METRO PARK",
+               "location": "Nərimanov rayonu"
+          },
+          "panorama": {
+               "name": "PANORAMA PARK",
+               "location": "Nəsimi rayonu, Bakı"
+          },
+          "villa": {
+               "name": "VILLA OLIVIA",
+               "location": "Badamdar"
+          },
+          "beyaz": {
+               "name": "BEYAZ PLAZA",
+               "location": "Ağ şəhər, Bakı"
+          }
+     },
+     "news": {
+          "article1": {
+               "date": "21/07/2023",
+               "title": "İpoteka dostu, köçməyə hazır mənzil əldə edin",
+               "description": "Panyaqran binası satılır mənzillər sərfəli axtaranlar üçün köçməyə hazır mənzillər və evlər arasında seçim edərkən müxtəlif mülahizələr var..."
+          },
+          "article2": {
+               "date": "21/07/2023",
+               "title": "Müasir yaşayış komplekslərində investisiya imkanları",
+               "description": "Bakının ən prestigli rayonlarında yerləşən yeni yaşayış kompleksləri investorlar üçün əla imkanlar təqdim edir..."
+          }
+     }
 }

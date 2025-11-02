@@ -9,43 +9,42 @@ import HeroSection from '@/components/common/projectsHeroSection';
 import AboutSection from '@/components/common/projectsAboutSection';
 import AmenitiesSection from '@/components/common/projectsAmenitiesSection';
 
-
 interface PageProps {
-  params: Promise<{
-    id: string;
-    locale: string;
-  }>;
+     params: Promise<{
+          id: string;
+          locale: string;
+     }>;
 }
 
 export default async function ProjectDetailPage({ params }: PageProps) {
-  const resolvedParams = await params;
-  const { id, locale } = resolvedParams;
-  const projectId = parseInt(id);
+     const resolvedParams = await params;
+     const { id, locale } = resolvedParams;
+     const projectId = parseInt(id);
 
-  if (isNaN(projectId)) {
-    notFound();
-  }
+     if (isNaN(projectId)) {
+          notFound();
+     }
 
-  let project;
-  try {
-    project = await ProjectService.getProjectById(projectId);
-    console.log("Project data:", project); // Debug için proje verisini yazdıralım
-  } catch (error) {
-    console.error('Project detail error:', error);
-    notFound();
-  }
+     let project;
+     try {
+          project = await ProjectService.getProjectById(projectId);
+          console.log('Project data:', project); // Debug için proje verisini yazdıralım
+     } catch (error) {
+          console.error('Project detail error:', error);
+          notFound();
+     }
 
-  if (!project) {
-    notFound();
-  }
+     if (!project) {
+          notFound();
+     }
 
-  return (
-    <main className="bg-white">
-      <Header />
-      {/* ✅ project verisini HeroSection’a gönderiyoruz */}
-      <HeroSection project={project} />
-      <AboutSection project={project}  />
-      <AmenitiesSection />
-    </main>
-  );
+     return (
+          <main className="bg-white">
+               <Header />
+               {/* ✅ project verisini HeroSection’a gönderiyoruz */}
+               <HeroSection project={project} />
+               <AboutSection project={project} />
+               <AmenitiesSection />
+          </main>
+     );
 }
