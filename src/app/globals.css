@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    /* Chrome, Safari, Edge */
+    html::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+    /* Firefox */
+    html {
+        scrollbar-width: none;
+    }
+}
+
+
+html {
+  /* Sayfa içeriği kaymasa bile dikey kaydırma çubuğunu her zaman gösterir. */
+  /* Bu, kaydırma çubuğunun görünmesi/kaybolmasıyla oluşan yatay kaymayı engeller. */
+  overflow-y: scroll;
+}
+
+/* Cinzel Font Family */
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cinzel Decorative Font Family */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url('/fonts/CinzelDecorative-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url('/fonts/CinzelDecorative-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url('/fonts/CinzelDecorative-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS Custom Properties for Fonts */
+:root {
+  --font-cinzel: 'Cinzel', serif;
+  --font-cinzel-decorative: 'Cinzel Decorative', serif;
+}
+
+/* Utility Classes */
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-cinzel-decorative {
+  font-family: var(--font-cinzel-decorative);
+}
+
+/* Legacy class support */
+.cinzel {
+  font-family: var(--font-cinzel-decorative);
+}
+
+
+
+@keyframes step-glow {
+  0%, 100% { 
+    transform: scale(1); 
+    box-shadow: 0 0 0px transparent;
+    filter: drop-shadow(0 0 0px transparent);
+  }
+  50% { 
+    transform: scale(1.05); /* Başlık ve çember 1.05 kat büyüyecek */
+    /* IŞIKLI BORDERLER VE PARLAMA KALDIRILDI */
+    
+    /* Alternatif olarak, sadece metin parlaklığı için: */
+    filter: drop-shadow(0 0 4px rgba(0, 150, 255, 0.7)); 
+  }
+}
+
+@keyframes flow-gradient {
+    0% { background-position: 50% 100%; }
+    100% { background-position: 50% 0%; }
+}
+
+.animate-flow-gradient {
+    /* Mavi tonu biraz daha parlak ve geçişi daha uzun yaptık */
+    background: 
+        linear-gradient(to top, 
+            rgba(0, 180, 255, 0) 0%,      /* Saydam */
+            rgba(0, 180, 255, 0.9) 20%,   /* Parlak Mavi */
+            rgba(0, 180, 255, 0.9) 40%,
+            rgba(0, 180, 255, 0) 60%      /* Saydam */
+        );
+    background-size: 100% 400%;
+    background-repeat: repeat-y;
+    animation: flow-gradient 2s linear infinite; /* Hızı 2 saniyeye çıkardık (daha zarif) */
+    width: 2px !important; 
+    filter: drop-shadow(0 0 5px rgba(0, 180, 255, 0.8)); /* Hafif parlama efekti */
+}
+
+/* ... Diğer CSS kodlarınız (simple-pulse ve overflow-y: scroll) aynı kalmalı ... */
+
+.animate-step-glow {
+    animation: step-glow 1s ease-in-out forwards;
+}
+
+@keyframes fade-in-up {
+  0% { 
+    opacity: 0; 
+    transform: translateY(20px); 
+    box-shadow: 0 0 0px rgba(0, 180, 255, 0); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0); 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); /* Hafif gölge */
+  }
+}
+
+.animate-fade-in-up {
+    /* 1 saniye süren, hafif gecikmeli animasyon */
+    animation: fade-in-up 1s ease-out forwards;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
