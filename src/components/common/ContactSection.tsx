@@ -12,7 +12,6 @@ import ArrovSvgRight from '../svg/arrovSvgRight';
 const ContactSection: React.FC = () => {
      const t = useTranslations('navigation');
      const tCommon = useTranslations('common');
-     a;
      const tNews = useTranslations('news');
 
      const newsItems = [

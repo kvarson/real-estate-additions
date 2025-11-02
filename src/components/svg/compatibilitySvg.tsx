@@ -30,22 +30,18 @@ const CompatibilitySvg: React.FC<WalletSvgProps> = () => {
                          y2="4.59398"
                          gradientUnits="userSpaceOnUse"
                     >
-                         <stop stop-color="#A9A49D" stop-opacity="0.6" />
+                         <stop stopColor="#A9A49D" stopOpacity="0.6" />
                          <stop
                               offset="0.250437"
-                              stop-color="#D3D1D3"
-                              stop-opacity="0"
+                              stopColor="#D3D1D3"
+                              stopOpacity="0"
                          />
                          <stop
                               offset="0.617745"
-                              stop-color="#DFDEE3"
-                              stop-opacity="0.6"
+                              stopColor="#DFDEE3"
+                              stopOpacity="0.6"
                          />
-                         <stop
-                              offset="1"
-                              stop-color="#C4C1C0"
-                              stop-opacity="0"
-                         />
+                         <stop offset="1" stopColor="#C4C1C0" stopOpacity="0" />
                     </linearGradient>
                     <linearGradient
                          id="paint1_linear_460_405"
@@ -55,22 +51,18 @@ const CompatibilitySvg: React.FC<WalletSvgProps> = () => {
                          y2="8.30585"
                          gradientUnits="userSpaceOnUse"
                     >
-                         <stop stop-color="#A9A49D" stop-opacity="0.6" />
+                         <stop stopColor="#A9A49D" stopOpacity="0.6" />
                          <stop
                               offset="0.250437"
-                              stop-color="#D3D1D3"
-                              stop-opacity="0"
+                              stopColor="#D3D1D3"
+                              stopOpacity="0"
                          />
                          <stop
                               offset="0.617745"
-                              stop-color="#DFDEE3"
-                              stop-opacity="0.6"
+                              stopColor="#DFDEE3"
+                              stopOpacity="0.6"
                          />
-                         <stop
-                              offset="1"
-                              stop-color="#C4C1C0"
-                              stop-opacity="0"
-                         />
+                         <stop offset="1" stopColor="#C4C1C0" stopOpacity="0" />
                     </linearGradient>
                </defs>
           </svg>
